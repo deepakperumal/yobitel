@@ -253,7 +253,9 @@
   
   @media only screen and (max-width: 767px) {
    
-
+    .gif-icon {
+      width: 100%;
+  }
     ul.nav.navbar-nav.ml-auto.mr-md-5 {
       margin-top: 16% !important;
   }
