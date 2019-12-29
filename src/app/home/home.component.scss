@@ -1,0 +1,283 @@
+
+  .nav-item {
+    margin-right: 24px;
+  }
+  
+  .navbar-nav {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-top: 19px;
+  }
+  
+  .nav-link {
+    color: #969696 !important ;
+    border-bottom: 3px solid transparent;
+  }
+  .nav-link:hover {
+    color: #000000 !important ;
+    border-bottom: 3px solid #8eff72;
+  }
+  .bg-lightblue
+  {
+    background: #f5f8fb;
+  }
+  .bg-light {
+    background: #ffffff !important;
+  }
+  header {
+    background: #f5f8fb;
+  }
+  .home-info {
+    background: #f5f8fb;
+    padding-top: 120px;
+    padding-left: 63px;
+  }
+  .f-t__1 {
+    font-size: 43px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 1.9;
+  }
+  .fw__re {
+    font-weight: 300;
+    line-height: 1.8;
+    font-size: 18px;
+  }
+  .home-img {
+    max-width: 1000px;
+  }
+  .navbar-toggler {
+    background-color: #c2c4c6 !important;
+    outline: none;
+  }
+  
+  
+  
+  .product-container__wrap {
+    width: 73%;
+    margin: 0 auto;
+  }
+  
+  .f-t__3 {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 27px;
+  }
+  .product-container {
+    margin: 0 auto;
+  }
+  .product-content {
+    margin-right: 15px;
+   cursor: pointer;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #efefef;
+    padding: 23px 27px 23px 27px;
+    background: #ffff;
+   
+  }
+  .copyright-txt {
+    float: right;
+    font-size: 14px;
+   
+  }
+  .footer-logo {
+    width: 7%;
+    float: left;
+    margin-top: 7px;
+  }
+  .d-inline {
+    display: inline;
+    margin-left: 10px;
+  }
+  .f-t5 {
+    letter-spacing: 1px;
+    line-height: 2;
+    font-weight: 400;
+  
+  }
+  .arrow {
+    margin-top: 31px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .f-t__5
+  {
+    font-size: 14px;
+  }
+   .bg-grey {
+    background: #eaeaea;
+  }
+  .float__center {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .product-f__wrap {
+    border: 1px solid gainsboro;
+    padding: 23px;
+    min-height: 346px ;
+  }
+  .arrow-blue {
+    font-size: 13px;
+    color: #1818ff;
+  }
+  
+  .arrow-blue:hover{
+    color: #000000;
+  }
+  .arrow-right {
+    width: 23px;
+    height: 21px;
+    margin-top: -2px;
+  }
+  
+  
+  
+  .check-circle {
+    position: absolute;
+    top: 2%;
+    color: #B0D237;
+    left: -2px;
+  }
+  
+  
+  .product-content::before
+  {
+    content: "";
+    width: 90.2%;
+    height: 5px;
+    position: absolute;
+    left: 16px;
+    top: 0;
+    background: #8FAC27;
+   visibility: hidden;
+   
+  }
+  .gif-icon {
+    width: 51%;
+  }
+  
+  .product-content:hover::before{
+    visibility:visible;
+  }
+   
+  .fl-left {
+      float: left;
+      width: 16%;
+  }
+  .home3-img {
+   
+    width: 100%;
+   
+  }
+  .demo-cont {
+    border: 1px solid #d1d1d1;
+    padding: 11px;
+    margin-bottom: 11px;
+  }
+  .footer-wrap,.copyright {
+    width: 90%;
+    margin: 0 auto;
+    padding: 18px 0;
+  }
+  footer {
+    border: 1px solid #e2e2e2;
+  }
+  .fw-6 
+  {
+    line-height: unset;
+  }
+  .footer-link {
+    font-size: 13px;
+  }
+
+  .sponsers {
+    width: 79%;
+    height: auto;
+}
+  @media only screen and (max-width: 1024px) {
+    .home-img {
+      max-width: 100%;
+    }
+    .home-info {
+      padding-top: 59px;
+    }
+    .f-t__1 {
+      font-size: 45px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .col-md-4 {
+      flex: 0 0 49.333333% !important;
+      max-width: 50% !important;
+    }
+  
+  }
+  @media only screen and (max-width: 768px) {
+    .check-circle {
+      margin-left: -22px;
+      margin-right: 10px;
+      position: unset;
+   
+  }
+  
+    .parallelogram 
+      {
+        display:none;
+      }
+    .f-t__6 {
+      font-size: 12px;
+      line-height: 2;
+      font-weight: 700;
+  }
+  
+    .product-container__wrap {
+      width: 100%;
+      margin: unset;
+    }
+  
+    .f-t__3 {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+    .nav-item {
+      margin-right: 11px;
+    }
+  }
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 767px) {
+   
+
+    ul.nav.navbar-nav.ml-auto.mr-md-5 {
+      margin-top: 16% !important;
+  }
+    .float__center {
+      width: 100%;
+      margin: unset;
+    }
+    .home-info {
+      padding-top: 40px;
+      padding-left: 16px;
+    }
+    .f-t__1 {
+      font-size: 29px;
+      line-height: 1.5;
+    }
+  
+    .f-t__4 {
+      font-size: 18px;
+      line-height: 2;
+    }
+  }
+  .social-media {
+    margin-right: 8px;
+    color: blue;
+    cursor: pointer;
+}  
+
